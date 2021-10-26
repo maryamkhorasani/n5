@@ -1,0 +1,36 @@
+.feature {
+  &_item {
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-display: column;
+    padding: 4rem 3rem;
+    p {
+      font-size: 1.5rem;
+      padding: 1rem 0;
+    }
+    h1 {
+      padding: 1rem 0;
+      font-weight: bold;
+    }
+    i {
+      color: var(--success);
+    }
+
+    &.bg-sucs {
+      background-color: var(--success);
+      & * {
+        color: var(--primary);
+      }
+    }
+  }
+
+
+  // animated
+  transition: transform .5s;
+  &.animated{
+    transform: translateY(10rem);
+  }
+}

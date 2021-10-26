@@ -1,0 +1,23 @@
+.about {
+  &-img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+
+  &-text {
+    padding: 3rem 0;
+
+    p {
+      font-size: 1.6rem;
+      padding: 1rem 0;
+    }
+  }
+
+  //   animated
+  transition: transform .7s;
+  &.animated{
+      transform: translateY(10rem);
+  }
+}

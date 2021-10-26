@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  outline: 0;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+ transition: all .3s;
+  &-shff {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    &:hover {
+      color: var(--primary);
+      background-color: var(--success);
+      border-color: transparent;
+    }
+  }
+
+  &-sucs {
+    background-color: var(--success);
+    color: var(--primary);
+    &:hover {
+      background-color: var(--primary);
+      color: var(--success);
+    }
+  }
+}

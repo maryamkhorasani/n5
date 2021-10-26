@@ -1,0 +1,12 @@
+.p-md {
+  padding:3rem 10rem;
+  @media (max-width: $bp-sm) {
+    padding: 3rem;
+  }
+}
+.p-lg{
+  padding: 6rem 10rem;
+  @media (max-width: $bp-sm) {
+    padding: 3rem;
+  }
+}

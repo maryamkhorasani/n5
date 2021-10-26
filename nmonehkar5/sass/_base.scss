@@ -1,0 +1,29 @@
+:root {
+  --success: #fdbe33;
+  --primary: #030f27;
+}
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+* {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.4;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  @media (max-width: $bp-xl) {
+    font-size: 50%;
+  }
+}
+body {
+  direction: rtl;
+  background: #dddddd;
+}

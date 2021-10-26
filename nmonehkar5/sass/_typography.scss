@@ -1,0 +1,38 @@
+[class^="flaticon-"]::before,
+[class*=" flaticon-"]::before,
+[class^="flaticon-"]::after,
+[class*=" flaticon-"]::after {
+  font-size: 40px;
+  margin-left: 20px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  @media (max-width: $bp-lg) {
+    padding: 0;
+  }
+}
+
+.heading {
+  &-primary {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  &-tertialy {
+    color: var(--success);
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+}
